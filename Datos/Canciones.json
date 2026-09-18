@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "How Deep is Your Love",
+    "artista": "Calvin Harris",
+    "genero": "Pop",
+    "duracion": 3
+  },
+  {
+    "titulo": "You Give Love A Bad Name",
+    "artista": "Bon Jovi",
+    "genero": "Rock",
+    "duracion": 4
+  },
+  {
+    "titulo": "Fly Me To The Moon",
+    "artista": "Frank Sinatra",
+    "genero": "Jazz",
+    "duracion": 5
+  }
+]

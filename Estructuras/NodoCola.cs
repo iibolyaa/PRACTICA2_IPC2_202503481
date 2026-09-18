@@ -6,7 +6,7 @@ public class NodoCola
     public NodoCola(Cancion cancion)
     {
         Cancion = cancion;
-        sig = null;
+        Siguiente = null;
     }
 
     public Cancion Cancion { get; set; }

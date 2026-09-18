@@ -18,7 +18,7 @@ public class ColaReproduccion
         return primero == null;
     }
 
-    public Encolar(Cancion cancion)
+    public void Encolar(Cancion cancion)
     {
         NodoCola nuevo = new NodoCola(cancion);
 
@@ -29,7 +29,7 @@ public class ColaReproduccion
             }
             else
             {
-                ultimo.sig = nuevo;
+                ultimo.Siguiente = nuevo;
                 ultimo = nuevo;
             }
     }
@@ -41,8 +41,8 @@ public class ColaReproduccion
             return null;
         }
 
-        Cancion cancion = primero.cancion;
-        primero = primero.sig;
+        Cancion cancion = primero.Cancion;
+        primero = primero.Siguiente;
 
         if(primero == null)
         {
@@ -61,7 +61,7 @@ public class ColaReproduccion
         while(actual != null)
         {
             total += actual.Cancion.DuracionMinutos;
-            actual = actual.sig;
+            actual = actual.Siguiente;
      
        }
        

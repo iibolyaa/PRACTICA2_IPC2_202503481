@@ -28,6 +28,7 @@ namespace CSharpFormApp
         /// </summary>
         private void InitializeComponent()
         {
+            this.splitcontainer1 = new System.Windows.Forms.SplitContainer();
             this.SuspendLayout();
             // 
             // Form1
@@ -38,9 +39,20 @@ namespace CSharpFormApp
             this.Size = new System.Drawing.Size(600, 450);
             this.Name = "Form1";
             this.Text = "Form1";
+            
+            // 
+            // splitcontainer1
+            // 
+            this.splitcontainer1.Location = new System.Drawing.Point(null, null);
+            this.splitcontainer1.Name = "splitcontainer1";
+            this.splitcontainer1.Size = new System.Drawing.Size(576, 408);
+            this.splitcontainer1.TabIndex = 1;
+            this.splitcontainer1.Text = "splitcontainer1";
+            this.Controls.Add(this.splitcontainer1);
             this.ResumeLayout(false);
         }
 
         #endregion
-    }
+    
+        private System.Windows.Forms.SplitContainer splitcontainer1;}
 }
